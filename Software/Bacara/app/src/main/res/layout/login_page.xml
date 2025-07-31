@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_activity"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_header_login"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_login" />
+
+        <LinearLayout
+            android:id="@+id/layout_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_margin="40sp"
+            android:background="@drawable/bg_login"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/tv_login_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-10sp"
+                android:fontFamily="@font/baloo_regular"
+                android:shadowColor="@color/green_word"
+                android:shadowDx="0"
+                android:shadowDy="8"
+                android:shadowRadius="3"
+                android:text="LOGIN"
+                android:textColor="@color/word_yellow"
+                android:textSize="60sp" />
+
+            <EditText
+                android:id="@+id/edtEmail_login"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/email_stroke"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtPassword_login"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/email_stroke"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Lupa Password ?"
+                android:textColor="@color/word_yellow"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:backgroundTint="@color/word_yellow"
+                android:fontFamily="@font/baloo_regular"
+                android:text="Login"
+                android:textColor="@color/green_button"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo2"
+                android:text="Belum punya akun? Daftar disini"
+                android:textColor="@color/word_yellow"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo_regular"
+                android:text="- Or -"
+                android:textColor="@color/word_yellow" />
+
+            <LinearLayout
+                android:id="@+id/layout_social_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_facebook_logo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/img_twitter_logo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/img_google_logo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/google" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_bacara_icon"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="-20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_kuning" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

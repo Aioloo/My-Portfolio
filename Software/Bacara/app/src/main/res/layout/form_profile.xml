@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_form"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:orientation="vertical"
+        android:layout_margin="20sp"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISI PROFIL"
+            android:textSize="36sp"
+            android:textColor="@color/word_yellow"
+            android:fontFamily="@font/baloo_regular"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/NamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="Nama Lengkap"
+            android:backgroundTint="@color/word_yellow"
+            android:textColorHint="@color/word_yellow"/>
+
+        <EditText
+            android:id="@+id/Nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="@color/word_yellow"
+            android:textColorHint="@color/word_yellow"
+            android:hint="Nickname"/>
+
+        <EditText
+            android:id="@+id/TempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="@color/word_yellow"
+            android:textColorHint="@color/word_yellow"
+            android:hint="Tempat Lahir"/>
+
+        <EditText
+            android:id="@+id/TanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="@color/word_yellow"
+            android:textColorHint="@color/word_yellow"
+            android:hint="Tanggal Lahir"/>
+
+        <EditText
+            android:id="@+id/NoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="@color/word_yellow"
+            android:textColorHint="@color/word_yellow"
+            android:hint="No Telp"/>
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:fontFamily="@font/baloo_regular"
+            android:textSize="20sp"
+            android:textColor="@color/green_button"
+            android:backgroundTint="@color/word_yellow"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_bacara_icon"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/logo_kuning" />
+
+</LinearLayout>

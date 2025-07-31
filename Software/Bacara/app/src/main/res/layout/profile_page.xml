@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profil"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/card_profil"
+        android:padding="20dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profil" />
+
+            <TextView
+                android:id="@+id/Nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nickname"
+                android:textSize="12sp"
+                android:fontFamily="@font/baloo_regular"
+                android:textColor="@color/green_button"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_regular"
+                android:text="Kartu Tanda Anak"
+                android:textColor="@color/green_button"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/NamaLengkap"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:fontFamily="@font/baloo2"
+                android:text="Nama : Ingmareza N.A"
+                android:textColor="@color/green_button"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/TempatLahir"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:fontFamily="@font/baloo2"
+                android:text="Tempat Lahir : "
+                android:textColor="@color/green_button"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/TanggalLahir"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:fontFamily="@font/baloo2"
+                android:text="Tanggal Lahir : 08-08-2004"
+                android:textColor="@color/green_button"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/EmailUser"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:fontFamily="@font/baloo2"
+                android:text="Email : blablabla@gmail.com"
+                android:textColor="@color/green_button"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/NoTelp"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:fontFamily="@font/baloo2"
+                android:text="No telp : 081234567890"
+                android:textColor="@color/green_button"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/baloo_regular"
+        android:textSize="12sp"
+        android:text="Untuk Orang Tua"
+        android:layout_gravity="center"
+        android:textColor="@color/word_yellow"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:progress="40"
+        android:max="100"
+        android:progressDrawable="@drawable/level_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learning Progress"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/word_yellow"
+        android:fontFamily="@font/baloo_regular"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Huruf"
+            android:textSize="12sp"
+            android:fontFamily="@font/baloo_regular"
+            android:textColor="@color/red3"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="60"
+            android:max="100"
+            android:progressDrawable="@drawable/huruf_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Angka"
+            android:textSize="12sp"
+            android:fontFamily="@font/baloo_regular"
+            android:textColor="@color/angka1"/>
+
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="30"
+            android:max="100"
+            android:progressDrawable="@drawable/angka_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Warna"
+            android:textSize="12sp"
+            android:fontFamily="@font/baloo_regular"
+            android:textColor="@color/warna1"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="60"
+            android:max="100"
+            android:progressDrawable="@drawable/warna_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Barang"
+            android:textSize="12sp"
+            android:fontFamily="@font/baloo_regular"
+            android:textColor="@color/barang1"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="55"
+            android:max="100"
+            android:progressDrawable="@drawable/barang_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/backMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underline"
+        android:textColor="@color/word_yellow"
+        android:textSize="12sp"
+        android:fontFamily="@font/baloo2"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

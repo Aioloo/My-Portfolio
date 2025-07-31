@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cardPilihan">
+    <item name="android:layout_width">180sp</item>
+    <item name="android:layout_height">160dp</item>
+    <item name="android:background">@drawable/bg_card</item>
+    <item name="android:textSize">48sp</item>
+    <item name="android:textColor">@color/word_yellow</item>
+    <item name="android:gravity">center</item>
+    </style>
+</resources>

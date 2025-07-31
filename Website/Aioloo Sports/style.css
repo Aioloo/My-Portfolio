@@ -1,0 +1,183 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F0CD;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #efd178,#fdc10e);
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  button{
+    background-color: #efd178;
+    width: 100px;
+    height: 25px;
+  }
+
+  search-bar{
+    background-color: #574102;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  a {
+    display: inline-block; 
+    padding: 10px 20px;
+    border: 2px solid #795757; 
+    background-color: #f1bf26;
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+  
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #FADA7A;
+  }
+
+  .hero-text{
+    color: #574102;
+  }
+  
+  .hero-image{
+    width: 400px;
+
+  }
+
+  .filter form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .filter form fieldset legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .filter form fieldset label {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .product-section {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .filter{
+    background-color: #edbc29;
+    border-style: solid;
+    border-color: #383525;
+  }
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card{
+    background-color: #edbc29;
+    color: #e3f2fd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .card-content {
+    padding: 1rem; 
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .promo-section{
+    background-image: linear-gradient(to bottom, #efd178, #eeb91c);
+  }
+
+  .tulisan-promo{
+    text-align: center;
+    margin-top: px;
+    color: #8f6d06  ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: ultra-condensed;
+    
+  }
+
+  .promo-items {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.promo-card {
+  background-image: #edbc29;  
+  color: #574102;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 200px;
+  height: 350px; 
+  text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+.promo-card img {
+  max-width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+
+.promo-card .card-content span {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #574102;
+}
+
+
+.special-card {
+  background-color: #3498db; 
+}
+
+
+footer{
+  background-color: #FADA7A;
+}

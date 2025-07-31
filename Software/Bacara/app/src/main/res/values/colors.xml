@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_green">#D3E671</color>
+    <color name="word_yellow">#F8ED8C</color>
+    <color name="green_button">#89AC46</color>
+    <color name="green_word">#D3E671</color>
+    <color name="green_progress">#626F47</color>
+    <color name="red1">#4A102A</color>
+    <color name="red2">#85193C</color>
+    <color name="red3">#C5172E</color>
+    <color name="angka1">#27548A</color>
+    <color name="angka2">#183B4E</color>
+    <color name="stroke_angka">#F3F3E0</color>
+    <color name="warna1">#F3C623</color>
+    <color name="warna2">#EB8317</color>
+    <color name="stroke_warna">#F4F6FF</color>
+    <color name="barang1">#7C4585</color>
+    <color name="barang2">#C95792</color>
+    <color name="stroke_barang">#3D365C</color>
+    <color name="green_answer">#5CB338</color>
+</resources>
