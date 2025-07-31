@@ -10,9 +10,9 @@ A simple Android application built with Kotlin for reading assistance.
 **[Aioloo Sports Website](./Website/Aioloo-Sports/)**  
 A mini sports store website made using HTML/CSS/JS.
 
-## 🎨 UI/UX Design
+## 🎨 UI/UX and Graphic Design
 **[Portfolio UI/UX]**  
-PDF file showcasing selected UI/UX case studies & prototypes.
+PDF file showcasing selected UI/UX case studies design and some Graphic Designing
 
 ---
 
