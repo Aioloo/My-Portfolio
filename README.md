@@ -11,7 +11,7 @@ A simple Android application built with Kotlin for reading assistance.
 A mini sports store website made using HTML/CSS/JS.
 
 ## 🎨 UI/UX Design
-**[Portfolio UI/UX](./PortfolioUIUX.pdf)**  
+**[Portfolio UI/UX]**  
 PDF file showcasing selected UI/UX case studies & prototypes.
 
 ---
